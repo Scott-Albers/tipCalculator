@@ -1,0 +1,11 @@
+body{
+  background-color: #555588;
+}
+
+h1{
+  color: red;
+  border: 1px solid green;
+  background-color: yellow;
+  font-family: monospace;
+  font-size: 50px
+}

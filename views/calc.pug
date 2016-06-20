@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+  head
+    title Our Awesome Tip Calculator
+    link(href='/style.css', rel='stylesheet')
+  body(style='background-color:' + color)
+    h1 Super Tip Calc!!
+    form(action='/calc', method='post')
+      input(type='label', name='Amt', value= Amount)
+      input(type='text', name='AmtInput', value= )
+      input(type='label', name='Tip', value= tip)
+      input(type='select', name='tipSelect', value= ['10%', '15%'])
+      button(type='submit') Compute Tip
+      span= r
